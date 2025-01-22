@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Maternity Care</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="pregnant.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                        viewBox="0 96 960 960" width="26">
+                        <path
+                            d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                    </svg></a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="doctor.html">Doctor Consultant</a></li>
+            <li><a href="emergency.html">Emergency</a></li>
+            <li><a href="aichat.html">AI Chat</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+        <ul>
+            <li><a href="../index.html">Maternity Care</a></li>
+            <li class="hideOnMobile"><a href="home.html">Home</a></li>
+            <li class="hideOnMobile"><a href="doctor.html">Doctor Consultant</a></li>
+            <li class="hideOnMobile"><a href="emergency.html">Emergency</a></li>
+            <li class="hideOnMobile"><a href="aichat.html">AI Chat</a></li>
+            <li class="hideOnMobile"><a href="login.html">Login</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="26" viewBox="0 96 960 960" width="26">
+                        <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="frontline">
+            <p style="color: rgb(50, 0, 248); font-weight: 700;">
+                At Maternity Care, we believe that every mother deserves the highest standard of care. Our philosophy is
+                centered around:
+                <span id="rotating-text" style="color: hotpink; font-weight: 800;"></span>
+            </p>
+        </div>
+
+        <section class="about">
+            <canvas id="aboutCanvas"></canvas>
+            <p class="about-text">Welcome to Maternity Care! We provide top-notch care for expectant mothers, ensuring a
+                safe and comfortable experience. Our team of dedicated professionals is here to support you every step
+                of the way.</p>
+        </section>
+    </main>
+<footer class="footer">
+    <p>© 2025 Maternity Care. All rights reserved.</p>
+</footer>
+</body>
+
+  <script src="../js/navbar.js"></script>
+    <script src="../js/rotate.js"></script>
+    <script src="../js/about.js"></script>
+
+</html>
